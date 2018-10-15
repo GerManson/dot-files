@@ -5,7 +5,7 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: '"Source Code Pro", "DejaVu Sans Mono", Inconsolata, Menlo, Consolas, "Lucida Console", monospace',
@@ -44,7 +44,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '12px 25px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -111,7 +111,13 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-oceans16', 'hyper-blink', 'hyper-tabs-enhanced'],
+  plugins: [
+    'hyper-blink',
+    'hyper-tabs-enhanced',
+    'hypercwd',
+    'hyper-pane',
+    'hyper-sierra-vibrancy'
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
