@@ -8,7 +8,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: '"Source Code Pro", "DejaVu Sans Mono", Inconsolata, Menlo, Consolas, "Lucida Console", monospace',
+    fontFamily: '"Office Code Pro", "Source Code Pro", "DejaVu Sans Mono", Inconsolata, Menlo, Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
@@ -116,7 +116,7 @@ module.exports = {
     'hyper-tabs-enhanced',
     'hypercwd',
     'hyper-pane',
-    'hyper-sierra-vibrancy'
+    "hyper-night-owl",
   ],
 
   // in development, you can create a directory under
