@@ -5,10 +5,12 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: '"Source Code Pro", "Fira Code", "Office Code Pro", "DejaVu Sans Mono", Inconsolata, Menlo, Consolas, "Lucida Console", monospace',
+    fontFamily: '"Source Code Pro", "Monoid Nerd Font", PowerlineSymbols, "mononoki Nerd Font Mono", "Fira Code", "Office Code Pro", "DejaVu Sans Mono", Inconsolata, Menlo, Consolas, "Lucida Console", monospace',
+    fontWeight: 'normal',
+    // fontWeightBold: 'bold',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
@@ -116,7 +118,7 @@ module.exports = {
     'hyper-tabs-enhanced',
     'hypercwd',
     'hyper-pane',
-    "hyper-night-owl",
+    "hyper-space",
   ],
 
   // in development, you can create a directory under

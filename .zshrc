@@ -11,6 +11,15 @@ export ZSH=/Users/germanrdz/.oh-my-zsh
 # ZSH_THEME="lambda"
   ZSH_THEME="spaceship"
 
+  SPACESHIP_PROMPT_ADD_NEWLINE="true"
+  SPACESHIP_CHAR_SYMBOL=" \uf0e7"
+  SPACESHIP_CHAR_PREFIX="\uf296"
+  SPACESHIP_CHAR_SUFFIX=(" ")
+  SPACESHIP_CHAR_COLOR_SUCCESS="yellow"
+  SPACESHIP_PROMPT_DEFAULT_PREFIX="$USER"
+  SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
+  SPACESHIP_USER_SHOW="true"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -91,3 +100,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(rbenv init -)"
+
+# alias ls='colorls --sort-dirs'
+# alias lc='colorls --tree '
+
+## Pure Prompt ##
+# autoload -U promptinit; promptinit
+# prompt pure
